@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#f1c40f',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <nav class="flex justify-between items-center px-10 bg-primary">
+        <div class="img-container">
+        <img src="https://e7.pngegg.com/pngimages/621/196/png-clipart-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text.png" alt="logo" class="w-10 h-10 rounded-full animate-bounce" >
+        </div>
+        <ul class="flex">
+            <li class="inline-block p-6"><a href=""class="text-white hover:underline hover:font-bold">home</a></li>
+            <li class="inline-block p-6"><a href=""class="text-white hover:underline hover:font-bold">home</a></li>
+            <li class="inline-block p-6"><a href=""class="text-white hover:underline hover:font-bold">home</a></li>
+            <li class="inline-block p-6"><a href=""class="text-white hover:underline hover:font-bold">home</a></li>
+            <li class="inline-block p-6"><a href=""class="text-white hover:underline hover:font-bold">home</a></li>
+            
+        </ul>
+    
+</nav>
+<div class="flex flex-wrap justify-around items-center px-10 my-10">
+    <div class="w-[23%] h-[300px] bg-blue-400 hover:-translate-y-1 overflow-hidden">
+        <div class="justify-center  ">
+        <img src="https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg"class=" w-[500PX] h-[200px]" alt="product" srcset="">
+        <p class="justify-around ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores, quo eius quae modi est reiciendis quasi quam quisquam suscipit temporibus libero esse distihiddendolore doloribus. Assumenda obcaecati repudiandae distinctio?</p>
+        </div>
+    </div>
+    <div class="w-[23%] h-[300px] bg-blue-400 hover:-translate-y-1  overflow-hidden">
+        <div class="justify-center ">
+            <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630"class="w-[500PX] h-[200px]" alt="product" srcset="">
+            <p class="justify-around ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores, quo eius quae modi est reiciendis quasi quam quisquam suscipit temporibus libero esse distinctio dolore doloribus. Assumenda obcaecati repudiandae distinctio?</p>
+            </div>
+    </div>
+    <div class="w-[23%] h-[300px] bg-blue-400 hover:-translate-y-1 overflow-hidden">
+        <div class="justify-center ">
+            <img src="https://www.shutterstock.com/image-photo/calm-weather-on-sea-ocean-600nw-2212935531.jpg"class="w-[500PX] h-[200px]" alt="product" srcset="">
+            <p class="justify-around ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores, quo eius quae modi est reiciendis quasi quam quisquam suscipit temporibus libero esse distinctio dolore doloribus. Assumenda obcaecati repudiandae distinctio?</p>
+            </div>
+    </div>
+    <div class="w-[23%] h-[300px] bg-blue-400 hover:-translate-y-1 overflow-hidden  ">
+        <div class="justify-center ">
+            <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/amazing-stone-path-in-forest-free-image.jpg?w=600&quality=80"class="w-[500PX] h-[200px]" alt="product" srcset="">
+            <p class="justify-around ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores, quo eius quae modi est reiciendis quasi quam quisquam suscipit temporibus libero esse distinctio dolore doloribus. Assumenda obcaecati repudiandae distinctio?</p>
+            </div>
+    </div>
+</div>
+
+</body>
+</html>
